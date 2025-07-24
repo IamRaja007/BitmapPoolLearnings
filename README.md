@@ -60,7 +60,6 @@ Instead of using Glide blindly, I built my own image loader to explore:
 * Reusing bitmaps requires exact match + `inMutable=true`
 * Downsampling is a no-brainer
 * Cancellation improves UX and performance drastically
-* GC and memory stats are measurable (`Debug.getRuntimeStat()`)
 
 ---
 
